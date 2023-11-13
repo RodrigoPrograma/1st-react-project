@@ -1,0 +1,23 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bodyImg{
+    max-width: 45%;
+    max-height: 45%;
+}
+.textContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 450px) {
+    .bodyImg{
+        display: none;
+    }
+}
